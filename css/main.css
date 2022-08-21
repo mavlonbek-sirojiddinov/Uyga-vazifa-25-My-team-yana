@@ -581,7 +581,11 @@ img {
     padding-top: 48px;
     padding-bottom: 133px;
   }
-  .consut-list a {
+  .consut-list {
+    display: none;
+    display: none;
+  }
+  .button-outline {
     display: none;
   }
   .site-header-logo {
@@ -619,6 +623,9 @@ img {
 .hero {
   padding-bottom: 56px;
   color: #fff;
+  background-image: url(../../img/dddd.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 750px) 50px;
 }
 
 .hero-container {
@@ -677,7 +684,7 @@ img {
   width: 358px;
   height: 200px;
   top: 160px;
-  left: 450px;
+  left: 700px;
   z-index: -1;
 }
 
@@ -1525,4 +1532,5 @@ footer {
     margin-right: 20px;
     margin-top: 20px;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+@inp;/*# sourceMappingURL=main.css.map */

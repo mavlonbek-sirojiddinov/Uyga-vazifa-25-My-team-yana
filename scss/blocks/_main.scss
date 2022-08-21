@@ -1,6 +1,9 @@
 .hero {
   padding-bottom: 56px;
   color: $text-color;
+  background-image: url(../../img/dddd.svg);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 750px) 50px;
 }
 
 .hero-container {
@@ -59,7 +62,7 @@
   width: 358px;
   height: 200px;
   top: 160px;
-  left: 450px;
+  left: 0px;
   z-index: -1;
 }
 

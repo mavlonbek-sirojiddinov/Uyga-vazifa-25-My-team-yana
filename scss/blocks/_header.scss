@@ -48,7 +48,6 @@
   box-shadow: 0 0 10px #fff, 0 0 20px #00c3ff, 0 0 40px #00c3ff, 0 0 60px #00c3ff;
 }
 
-
 .header-link-item span {
   display: block;
   position: absolute;
@@ -180,7 +179,12 @@
     padding-bottom: 133px;
   }
 
-  .consut-list a {
+  .consut-list {
+    @include btn-none;
+    display: none;
+  }
+
+  .button-outline {
     display: none;
   }
 
